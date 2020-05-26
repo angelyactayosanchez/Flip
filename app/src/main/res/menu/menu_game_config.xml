@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GameConfig">
+    <item android:title="Main Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more_vert_black">
+            <menu>
+                <item
+                    android:id="@+id/m_player"
+                    android:title="@string/menu_player"
+                    android:icon="@drawable/ic_player_web"
+                    app:showAsAction="never"
+                    />
+                <item
+                    android:id="@+id/m_howTo"
+                    android:title="@string/menu_howTo"
+                    android:icon="@drawable/ic_howto_web"
+                    app:showAsAction="never"/>
+                <item
+                    android:id="@+id/m_about"
+                    android:title="@string/menu_about"
+                    android:icon="@drawable/ic_about_web"
+                    app:showAsAction="ifRoom|withText"/>
+            </menu>
+    </item>
+</menu>

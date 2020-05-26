@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Flip</string>
+    <string name="radio_color">Colores</string>
+    <string name="radio_number">Números</string>
+    <string name="check_sound">Sonido</string>
+    <string name="check_vibrate">Vibración</string>
+    <string name="play">Jugar</string>
+    <string name="num_ele_x">Número elementos en eje X</string>
+    <string name="num_colors">Número tramas</string>
+    <string name="menu_player">Jugador</string>
+    <string name="menu_howTo">Ayuda</string>
+    <string name="menu_about">Acerca de Flip</string>
+</resources>
